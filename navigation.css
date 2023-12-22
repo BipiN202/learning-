@@ -1,0 +1,36 @@
+.float-navigation{
+    margin: auto;
+    padding: 10px;
+    background-color:#333;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul.float-navigation li{
+    float: right;
+    overflow: hidden;
+}
+nav.float-navigation a{
+    padding: 10px;
+    color: white;
+}
+main{
+    padding: 20px;
+}
+footer{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width:600px){
+.float-navigation{
+    width: 600px;;
+    margin: 0 auto;
+    background-color:green;
+    
+}
+}
